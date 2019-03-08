@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.preyc_SpringRestApiTest_war_1.0PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.preyc.springrestapitest.ent.Pais</class>
+    <class>com.preyc.springrestapitest.ent.Direccion</class>
+    <class>com.preyc.springrestapitest.ent.Contacto</class>
+    <class>com.preyc.springrestapitest.ent.Provincia</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://SRVMV26:1433;databaseName=CYC_Practicas"/>
+      <property name="javax.persistence.jdbc.user" value="ORM"/>
+      <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+      <property name="javax.persistence.jdbc.password" value="ORM"/>
+    </properties>
+  </persistence-unit>
+</persistence>

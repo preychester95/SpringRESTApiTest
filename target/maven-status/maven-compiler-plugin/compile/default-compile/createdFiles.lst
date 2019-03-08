@@ -1,0 +1,9 @@
+com\preyc\springrestapitest\controller\ContactoController.class
+com\preyc\springrestapitest\dao\ContactoDAO.class
+com\preyc\springrestapitest\ent\Contacto.class
+com\preyc\springrestapitest\ent\Provincia.class
+com\preyc\springrestapitest\config\AppInit.class
+com\preyc\springrestapitest\ent\Pais.class
+com\preyc\springrestapitest\ent\Direccion.class
+com\preyc\springrestapitest\config\AppConfig.class
+com\preyc\springrestapitest\config\WebConfig.class
